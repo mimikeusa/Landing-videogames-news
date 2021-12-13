@@ -7,6 +7,9 @@ mixin article(categoria,titulo, descripcion)
 		span.articulo__categoria=categoria
 		h2.articulo__titulo=titulo
 		p.articulo__descripcion=descripcion
+mixin amigos(amigos, imagen)
+	img(src=imagen, alt="")
+	p= amigos
 doctype html
 html
 	head
